@@ -1,4 +1,4 @@
-# Image clustering based on transfer learning features (under construction)
+# Image clustering based on transfer learning features
 
 ## How to use
 1. Install the following packages
@@ -33,5 +33,7 @@ For each cluster in each clustering solution, this script randomly selects 20 im
 ## 6 visualize grid.py
 For each clustering solution, this script creates a figure that show the randomly selected 20 images in each cluster.
 
+If you have used the scripts, please cite the following article, which has a detailed description of the method:
 
+Peng, Y. (2020). What Makes Politicians’ Instagram Posts Popular? Analyzing Social Media Strategies of Candidates and Office Holders with Computer Vision. The International Journal of Press/Politics.
 
