@@ -37,3 +37,14 @@ If you have used the scripts, please cite the following article, which has a det
 
 Peng, Y. (2020). What Makes Politicians’ Instagram Posts Popular? Analyzing Social Media Strategies of Candidates and Office Holders with Computer Vision. The International Journal of Press/Politics.
 
+@article{peng2021makes,
+  title={What Makes Politicians’ Instagram Posts Popular? Analyzing Social Media Strategies of Candidates and Office Holders with Computer Vision},
+  author={Peng, Yilang},
+  journal={The International Journal of Press/Politics},
+  volume={26},
+  number={1},
+  pages={143--166},
+  year={2021},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
