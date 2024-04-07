@@ -12,14 +12,14 @@ if cvmodel == "vgg16":
     from keras.applications.vgg16 import VGG16
     base_model = VGG16(weights="imagenet", include_top=True)
     print(base_model.summary())
-    feature_model = Model(input=base_model.input, output=base_model.get_layer('fc1').output)
+    feature_model = Model(base_model.input, base_model.get_layer('fc1').output)
     img_size = (224, 224)
     
 elif cvmodel == "vgg16hybrid":
     from vgg16_hybrid_places_1365 import VGG16_Hybrid_1365
     base_model = VGG16_Hybrid_1365(weights='places', include_top=True, input_shape=(224, 224, 3))
     print(base_model.summary())
-    feature_model = Model(input=base_model.input, output=base_model.get_layer('fc2').output)
+    feature_model = Model(base_model.input, base_model.get_layer('fc2').output)
     img_size = (224, 224)
 
 print(feature_model.summary())
